@@ -1,21 +1,5 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import coffee from 'src/assets/coffee.png'
-import bean from 'src/assets/bean.png'
-import choco from 'src/assets/choco.png'
-import greenTea from 'src/assets/green-tea.png'
-import teaLeaf from 'src/assets/tea-leaf.png'
-import mint from 'src/assets/mint.png'
-import smoothie from 'src/assets/smoothie.png'
-import strawberry from 'src/assets/strawberry.png'
-import mango from 'src/assets/mango.png'
-import orangeJuice from 'src/assets/orange-juice.png'
-import orange from 'src/assets/orange.png'
-import lemon from 'src/assets/lemon.png'
-import hotChocolate from 'src/assets/hot-chocolate.png'
-import milk from 'src/assets/milk.png'
-import latte from 'src/assets/latte.png'
-import iceCube from 'src/assets/ice-cube.png'
 
 
 function DrinkCard({ drink, index }) {
@@ -104,7 +88,7 @@ function DrinksMenu() {
             textColor: "text-[#8B4513]",
             borderColor: "border-[#8B4513]",
             buttonColor: "bg-[#D2691E]",
-            mainImage: coffee,
+            mainImage: "menu-card/assets/coffee.png",
             ingredients: [
                 { image: "src/assets/bean.png", alt: "bean", position: "bottom-28 left-20", size: "w-8 h-8", x: 80, y: -35, rotate: 45, duration: 1.2, delay: 0.2 },
                 { image: "src/assets/bean.png", alt: "bean", position: "bottom-32 left-24", size: "w-7 h-7", x: 90, y: -45, rotate: -30, duration: 1.4, delay: 0.4 },
