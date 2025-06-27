@@ -87,7 +87,7 @@ function DrinksMenu() {
             textColor: "text-[#8B4513]",
             borderColor: "border-[#8B4513]",
             buttonColor: "bg-[#D2691E]",
-            mainImage: "src/assets/coffee.png",
+            mainImage: "menu-card/assets/coffee.png",
             ingredients: [
                 { image: "src/assets/bean.png", alt: "bean", position: "bottom-28 left-20", size: "w-8 h-8", x: 80, y: -35, rotate: 45, duration: 1.2, delay: 0.2 },
                 { image: "src/assets/bean.png", alt: "bean", position: "bottom-32 left-24", size: "w-7 h-7", x: 90, y: -45, rotate: -30, duration: 1.4, delay: 0.4 },
